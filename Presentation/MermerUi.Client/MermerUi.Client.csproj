@@ -1,0 +1,114 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\css\ajax-loader.gif" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\css\bootstrap.min.css" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\author-item.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\banner-image.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\banner-image1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\banner-image2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\brand-logo-1.svg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\brand-logo-2.svg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\brand-logo-3.svg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\brand-logo-4.svg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\brand-logo-5.svg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\commentor-item1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\commentor-item2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\commentor-item3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\dhl.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\error-image.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\featured-item2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\featured-item3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\featured-item4.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\featured-item5.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\featured-large-item1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\featured-large-item2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\furnicare.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\furnicare1.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\hero-image1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\kg91.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\kg911.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\main-logo.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\makefixtures.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\makefixtures1.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\martan.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\martan1.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\mastercard.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\niferzene.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\niferzene1.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\paypal.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item4.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item5.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item6.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item7.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item8.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-item9.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-large-item1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-large-item2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-large-item3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-large-item4.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-thumb-image1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-thumb-image2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\post-thumb-image3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item10.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item11.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item12.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item4.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item5.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item6.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item7.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item8.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-item9.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-large-1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-large-2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-large-3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-large-4.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-thumb-1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-thumb-2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-thumbnail-1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-thumbnail-2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-thumbnail-3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\product-thumbnail-4.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\review-image1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\review-image2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\search-icon.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\shippingcard.png" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\single-image1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\single-image2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\single-post-item.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\team-member1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\team-member2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\team-member3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\team-member4.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\visa.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\wishlist-item1.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\wishlist-item2.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\images\wishlist-item3.jpg" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\index.html" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\js\ajax-loader.gif" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\js\jquery-1.11.0.min.js" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\js\modernizr.js" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\js\plugins.js" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\js\script.js" />
+    <None Include="wwwroot\furnics-1.0.0\furnics-1.0.0\style.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.16" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>

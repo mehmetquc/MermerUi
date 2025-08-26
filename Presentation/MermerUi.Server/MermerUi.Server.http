@@ -1,0 +1,6 @@
+@MermerUi.Server_HostAddress = http://localhost:5110
+
+GET {{MermerUi.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
