@@ -1,0 +1,46 @@
+﻿using AutoMapper;
+using MediatR;
+using MermerUi.Application.DTOs;
+using MermerUi.Application.ResponseModels;
+using MermerUi.Persistence.Contexts;
+using MermerUi.Persistence.Features.Referans.Commands;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MermerUi.Persistence.Features.Header.Commands
+{
+    public class DeleteHeaderHandler : IRequestHandler<DeleteHeaderRequest, ServiceResponse<HeaderDTO>>
+    {
+        private readonly IMapper mapper;
+        private readonly MermerDbContext context;
+        private readonly IConfiguration configuration;
+        public DeleteHeaderHandler(IMapper Mapper, MermerDbContext Context, IConfiguration Configuration)
+        {
+            mapper = Mapper;
+            context = Context;
+            configuration = Configuration;
+
+        }
+
+        public async Task<ServiceResponse<HeaderDTO>> Handle(DeleteHeaderRequest request, CancellationToken cancellationToken)
+        {
+            var dbHeader = await context.Headers.FindAsync(request.Id, cancellationToken);
+
+            if (dbHeader == null)
+                throw new Exception("Header Bulunamadı");
+            context.Headers.Remove(dbHeader);
+            int result = await context.SaveChangesAsync();
+            if (result < 0)
+                throw new Exception("Context Savechanges Not Failed");
+            var response = mapper.Map<HeaderDTO>(dbHeader);
+            return new ServiceResponse<HeaderDTO>
+            {
+                Value = response
+            };
+        }
+    }
+}

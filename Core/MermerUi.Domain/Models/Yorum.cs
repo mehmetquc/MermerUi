@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,8 +11,9 @@ namespace MermerUi.Domain.Models
 {
     public class Yorum:BaseModel
     {
-        public string Baslık { get; set; }
-        public string Metin { get; set; }
-        public ICollection<YorumAcilamasi> yorumAcilamasis { get; set; }
+        public string Baslis { get; set; }
+        public string Metim { get; set; }
+   
+
     }
 }

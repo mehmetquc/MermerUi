@@ -9,14 +9,9 @@ namespace MermerUi.Domain.Models
 {
     public class Ayricaliklarimiz:BaseModel
     {
-
         public string Ikon { get; set; }
 
         public string  Metin { get; set; }
-
-
-
-
 
     }
 }
